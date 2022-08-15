@@ -28,8 +28,8 @@
 
 // function getDiffDays(dateStart, dateEnd) {
    
-//     const dateFirst = new Date(start);
-//     const dateSecond = new Date(end);
+//     const dateFirst = new Date(dateStart);
+//     const dateSecond = new Date(dateEnd);
 
 //     if (dateFirst.toString() === "Invalid Date" || dateSecond.toString() === "Invalid Date") {
 //         console.error("Error: invalid date");
