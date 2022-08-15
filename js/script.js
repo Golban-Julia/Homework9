@@ -26,7 +26,7 @@
 // Если пользователь ввел дату начала, которая будет позже чем дата окончания - то вывести ошибку то дата позже чем дата окончания
 
 
-// function getDiffDays(start, end) {
+// function getDiffDays(dateStart, dateEnd) {
    
 //     const dateFirst = new Date(start);
 //     const dateSecond = new Date(end);
@@ -39,7 +39,7 @@
 //     }
 //     else {
   
-//     const oneDay = 1000 * 60 * 60 * 24;
+//     const ONE_DAY_IN _MILLISECONDS = 1000 * 60 * 60 * 24;
 
 //     const diffInTime = dateSecond.getTime() - dateFirst.getTime();
 
@@ -61,7 +61,9 @@
 // function isWeekend(date) {
 //     const day = new Date(date);
 
-//   return (day.getDay() === 0 || day.getDay() === 6);
+//     let orderOfTheDay = day.getDay();
+
+//   return (orderOfTheDay === 0 || orderOfTheDay === 6);
 // }
 
 // console.log(isWeekend('2022-02-12')); // true
